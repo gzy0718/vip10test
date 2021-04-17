@@ -15,3 +15,8 @@ haier= Washer()
 #对象调用类下的方法
 haier.wash()
 
+#类的外面给类添加属性并被对象获取
+haier.width=500
+haier.hight=800
+print(f"haier洗衣机的宽度是{haier.width}")
+print(f"haier洗衣机的高度是{haier.hight}")
