@@ -48,11 +48,12 @@ class Washer():
     def __str__(self):
         return f"宽度{self.width}"
     #当删除对象时，python解释器也会默认调⽤ __del__() ⽅法
-    def __del__(self):
-        print("我被删除了")
+    # def __del__(self):
+    #     print("我被删除了")
 
 haier2=Washer(10,20)
 haier3=Washer(20,50)
+print(haier3)
 #haier2.wash2()
 #haier3.wash2()
 #print(haier3)
