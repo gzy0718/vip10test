@@ -45,35 +45,42 @@
 #    餐桌：占1.5平米
 # 3）.将以上三件家具添加到房子中
 # 4）.打印房子时，要求输出:户型，总面积，剩余面积，家具名称列表
-class Furniture():
-    def __init__(self, name, area):
-        self.name = name
-        self.area = area
+# class Furniture():
+#     def __init__(self, name, area):
+#         self.name = name
+#         self.area = area
+#
+# class Home():
+#
+#      def __init__(self, area):
+#         self.area = area
+#         self.free_area = area
+#         self.furniture = []
+#
+#      def __str__(self):
+#          return f'房⼦占地⾯积{self.area}, 剩余⾯积{self.free_area}, 家具有{self.furniture}'
+#
+#      def add_furniture(self, item):
+#             if self.free_area >= item.area:
+#                 self.furniture.append(item.name)
+#                 self.free_area -= item.area
+#             else:
+#                 print('家具太⼤，剩余⾯积不⾜，⽆法容纳')
+# bed = Furniture('双人床',4)
+# yigui=Furniture('衣柜',2)
+# canzhuo=Furniture('餐桌',1.5)
+# jia1 = Home(120)
+# jia1.add_furniture(bed)
+# jia1.add_furniture(yigui)
+# jia1.add_furniture(canzhuo)
+# print(jia1)
 
-class Home():
-
-     def __init__(self, area):
-        self.area = area
-        self.free_area = area
-        self.furniture = []
-
-     def __str__(self):
-         return f'房⼦占地⾯积{self.area}, 剩余⾯积{self.free_area}, 家具有{self.furniture}'
-
-     def add_furniture(self, item):
-            if self.free_area >= item.area:
-                self.furniture.append(item.name)
-                self.free_area -= item.area
-            else:
-                print('家具太⼤，剩余⾯积不⾜，⽆法容纳')
-bed = Furniture('双人床',4)
-yigui=Furniture('衣柜',2)
-canzhuo=Furniture('餐桌',1.5)
-jia1 = Home(120)
-jia1.add_furniture(bed)
-jia1.add_furniture(yigui)
-jia1.add_furniture(canzhuo)
-print(jia1)
+# 4.士兵开枪
+# 需求：
+# 1）.士兵瑞恩有一把AK47
+# 2）.士兵可以开火(士兵开火扣动的是扳机)
+# 3）.枪 能够 发射子弹(把子弹发射出去)
+# 4）.枪 能够 装填子弹 --增加子弹的数量
 
 
 
