@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="31dee6c8-ca48-4a9c-a071-c0e654e6ce27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/configEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/configEmail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="configHttp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="configEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTestVip10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configHttp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configEmail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.configEmail" />
         <item itemvalue="Python.writeExcel" />
         <item itemvalue="Python.logs" />
         <item itemvalue="Python tests.Unittests in TestCase.py" />
-        <item itemvalue="Python.configHttp" />
       </list>
     </recent_temporary>
   </component>
@@ -173,14 +173,29 @@
       <option name="project" value="LOCAL" />
       <updated>1622265636193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testcase调用writeexcel">
+      <created>1622273096909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622273096909</updated>
+    </task>
+    <task id="LOCAL-00004" summary="生成测试报告，并且按数量删除">
+      <created>1622273150752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622273150752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unitest" />
     <MESSAGE value="unitest-writeexcel" />
     <MESSAGE value="testcase调用writeexcel" />
-    <option name="LAST_COMMIT_MESSAGE" value="testcase调用writeexcel" />
+    <MESSAGE value="生成测试报告，并且按数量删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成测试报告，并且按数量删除" />
   </component>
   <component name="WindowStateProjectService">
     <state x="87" y="117" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621649081934">
@@ -191,30 +206,30 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="941" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.874@0.0.1463.874" timestamp="1621677385438" />
-    <state x="316" y="35" key="CommitChangelistDialog2" timestamp="1622273093782">
+    <state x="316" y="35" key="CommitChangelistDialog2" timestamp="1622273148019">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="316" y="35" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1622273093782" />
+    <state x="316" y="35" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1622273148019" />
     <state x="878" y="196" key="FileChooserDialogImpl" timestamp="1621269763263">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="878" y="196" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1621269763263" />
-    <state width="1442" height="221" key="GridCell.Tab.0.bottom" timestamp="1622272692451">
+    <state width="545" height="221" key="GridCell.Tab.0.bottom" timestamp="1622280977854">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1442" height="221" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1622272692451" />
-    <state width="1442" height="221" key="GridCell.Tab.0.center" timestamp="1622272692451">
+    <state width="545" height="221" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
+    <state width="545" height="221" key="GridCell.Tab.0.center" timestamp="1622280977854">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1442" height="221" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1622272692451" />
-    <state width="1442" height="221" key="GridCell.Tab.0.left" timestamp="1622272692451">
+    <state width="545" height="221" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
+    <state width="545" height="221" key="GridCell.Tab.0.left" timestamp="1622280977854">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1442" height="221" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1622272692451" />
-    <state width="1442" height="221" key="GridCell.Tab.0.right" timestamp="1622272692451">
+    <state width="545" height="221" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
+    <state width="545" height="221" key="GridCell.Tab.0.right" timestamp="1622280977854">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1442" height="221" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1622272692451" />
+    <state width="545" height="221" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
     <state width="817" height="385" key="GridCell.Tab.1.bottom" timestamp="1622271094205">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -235,10 +250,10 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="233" y="79" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1621649061678" />
-    <state x="324" y="159" key="Vcs.Push.Dialog.v2" timestamp="1622273105615">
+    <state x="324" y="159" key="Vcs.Push.Dialog.v2" timestamp="1622273155488">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="324" y="159" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1622273105615" />
+    <state x="324" y="159" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1622273155488" />
     <state x="779" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1621529720017">
       <screen x="0" y="0" width="1463" height="874" />
     </state>

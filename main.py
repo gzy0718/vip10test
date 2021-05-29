@@ -11,14 +11,19 @@
 import unittest,os,time
 from HTMLTestRunner import HTMLTestRunner
 from common.logs import *
+from common.configEmail import SendEmail
+
+
 
 project_dir = os.path.dirname(__file__)
 
 def creat_suite():
-
+    project_dir = os.path.dirname(__file__)
     case_dir = project_dir + '/testCase'
 
     suite = unittest.defaultTestLoader.discover(start_dir=case_dir, pattern='test*.py', top_level_dir=None)
+
+
 
     return  suite
 
@@ -27,9 +32,9 @@ def auto_clear(count):
     filelist = os.listdir(project_dir+'/report')
 
 
-        #方案2
-        # os.remove(project_dir+'/report/'+i)
-        #方案1
+            #方案2
+            # os.remove(project_dir+'/report/'+i)
+            #方案1
     logger.info(filelist)
     if len(filelist)>count:
         for i in range(len(filelist)-count):
@@ -40,12 +45,15 @@ def auto_clear(count):
 
 
 if __name__ == '__main__':
-    # suite = creat_suite()
-    # timestr = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime())
-    #
-    # report = project_dir + '/report/'+timestr+'report.html'
-    # fp = open(report, 'wb')
-    # runner = HTMLTestRunner(stream=fp,title='玩安卓测试报告',description='测试详情')
-    # runner.run(suite)
-    # fp.close()
-    auto_clear(2)
+    auto_clear(5)
+    suite = creat_suite()
+    timestr = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime())
+
+    report = project_dir + '/report/'+timestr+'report.html'
+    fp = open(report, 'wb')
+    runner = HTMLTestRunner(stream=fp,title='玩安卓测试报告',description='测试详情')
+    runner.run(suite)
+    suite=SendEmail()
+    suite.senMail()
+    fp.close()
+
