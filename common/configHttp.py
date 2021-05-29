@@ -2,6 +2,7 @@
 #实现 逻辑同tastcase
 import requests
 from  common.logs import *
+
 class CongfigHttp():
 
     def __init__(self,url,value,method):
@@ -20,11 +21,12 @@ class CongfigHttp():
             return self.__post()
 
     def __get(self):
+        #读出来的都是字符串，需要eval转换
         result = requests.get(url=self.url, params=eval(self.value))
-        real_errcode = result.json()['errorCode']
-        status_code = result.status_code
+        self.real_errcode = result.json()['errorCode']
+        self.status_code = result.status_code
         # print(result)
-        return real_errcode,status_code
+        return self.real_errcode,self.status_code
 
     def __post(self):
         result = requests.post(url=self.url, data=eval(self.value))

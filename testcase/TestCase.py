@@ -2,6 +2,7 @@ import requests,unittest
 from common.readExcel import *
 from ddt import *
 from common.configHttp import *
+from common.writeExcel import *
 re = ReadExcel()
 testdata =re.getData()
 # logger.info(f'---------{testdata}')
@@ -22,7 +23,7 @@ class TestCase(unittest.TestCase):
         # expect=expect
         # id=id
 
-        #调用CongfigHttp。run
+        #调用CongfigHttp.run
         ch = CongfigHttp(interfaceUrl, value, Method)
         real_errcode,status_code=ch.run()
 
@@ -50,7 +51,9 @@ class TestCase(unittest.TestCase):
             status = 'fail'
             raise
         finally:
-            pass
+            writeexcel=WriteExcel()
+            writeexcel.writeData(int(id),6,real_errcode,status)
+
 
 
 
