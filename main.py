@@ -8,8 +8,9 @@
 '''
 #把HTMLTestRunner文件放到venv目录下
 
-import unittest,os
+import unittest,os,time
 from HTMLTestRunner import HTMLTestRunner
+from common.logs import *
 
 project_dir = os.path.dirname(__file__)
 
@@ -21,10 +22,30 @@ def creat_suite():
 
     return  suite
 
+def auto_clear(count):
+
+    filelist = os.listdir(project_dir+'/report')
+
+
+        #方案2
+        # os.remove(project_dir+'/report/'+i)
+        #方案1
+    logger.info(filelist)
+    if len(filelist)>count:
+        for i in range(len(filelist)-count):
+            os.remove(project_dir + '/report/' + filelist[i])
+
+
+
+
+
 if __name__ == '__main__':
-    suite = creat_suite()
-    report = project_dir + '/report/report.html'
-    fp = open(report, 'wb')
-    runner = HTMLTestRunner(stream=fp,title='玩安卓测试报告',description='测试详情')
-    runner.run(suite)
-    fp.close()
+    # suite = creat_suite()
+    # timestr = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime())
+    #
+    # report = project_dir + '/report/'+timestr+'report.html'
+    # fp = open(report, 'wb')
+    # runner = HTMLTestRunner(stream=fp,title='玩安卓测试报告',description='测试详情')
+    # runner.run(suite)
+    # fp.close()
+    auto_clear(2)
