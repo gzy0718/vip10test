@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622273150752</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="邮件发送report附件">
+      <created>1622282094610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622282094610</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +202,8 @@
     <MESSAGE value="unitest-writeexcel" />
     <MESSAGE value="testcase调用writeexcel" />
     <MESSAGE value="生成测试报告，并且按数量删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成测试报告，并且按数量删除" />
+    <MESSAGE value="邮件发送report附件" />
+    <option name="LAST_COMMIT_MESSAGE" value="邮件发送report附件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="87" y="117" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621649081934">
@@ -206,10 +214,10 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="941" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.874@0.0.1463.874" timestamp="1621677385438" />
-    <state x="316" y="35" key="CommitChangelistDialog2" timestamp="1622273148019">
+    <state x="316" y="35" key="CommitChangelistDialog2" timestamp="1622282092000">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="316" y="35" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1622273148019" />
+    <state x="316" y="35" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1622282092000" />
     <state x="878" y="196" key="FileChooserDialogImpl" timestamp="1621269763263">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -250,10 +258,10 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="233" y="79" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1621649061678" />
-    <state x="324" y="159" key="Vcs.Push.Dialog.v2" timestamp="1622273155488">
+    <state x="324" y="159" key="Vcs.Push.Dialog.v2" timestamp="1622282098319">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="324" y="159" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1622273155488" />
+    <state x="324" y="159" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1622282098319" />
     <state x="779" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1621529720017">
       <screen x="0" y="0" width="1463" height="874" />
     </state>

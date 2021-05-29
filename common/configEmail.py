@@ -14,7 +14,7 @@ from email.header import Header
 class SendEmail():
 
     def senMail(self):
-
+##后续可以写入到config.ini文件下，读取配置后，再调用
         sender = '18612863544@163.com'
 
         receiver = '249298402@qq.com'
