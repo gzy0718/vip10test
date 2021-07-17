@@ -18,8 +18,8 @@ from common.configEmail import SendEmail
 project_dir = os.path.dirname(__file__)
 
 def creat_suite():
-    project_dir = os.path.dirname(__file__)
-    case_dir = project_dir + '/testCase'
+    # project_dir = os.path.dirname(__file__)
+    case_dir = project_dir + '/testcase'
 
     suite = unittest.defaultTestLoader.discover(start_dir=case_dir, pattern='test*.py', top_level_dir=None)
 

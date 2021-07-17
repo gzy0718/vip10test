@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31dee6c8-ca48-4a9c-a071-c0e654e6ce27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/configEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/configEmail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
       <recent name="C:\Users\GZY\PycharmProjects\InterfaceTestVip10\testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.configEmail">
     <configuration name="configEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTestVip10" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestCase.TestCase.test_run" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTestVip10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,17 +133,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/TestCase.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;TestCase.TestCase.test_run&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.configEmail" />
+        <item itemvalue="Python tests.Unittests for TestCase.TestCase.test_run" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.writeExcel" />
         <item itemvalue="Python.logs" />
-        <item itemvalue="Python tests.Unittests in TestCase.py" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622282094610</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="邮件发送report附件">
+      <created>1622285265685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622285265685</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,57 +220,57 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="941" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.874@0.0.1463.874" timestamp="1621677385438" />
-    <state x="316" y="35" key="CommitChangelistDialog2" timestamp="1622282092000">
+    <state x="316" y="35" key="CommitChangelistDialog2" timestamp="1622285263006">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="316" y="35" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1622282092000" />
+    <state x="316" y="35" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1622285263006" />
     <state x="878" y="196" key="FileChooserDialogImpl" timestamp="1621269763263">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="878" y="196" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1621269763263" />
-    <state width="545" height="221" key="GridCell.Tab.0.bottom" timestamp="1622280977854">
+    <state width="1070" height="381" key="GridCell.Tab.0.bottom" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="545" height="221" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
-    <state width="545" height="221" key="GridCell.Tab.0.center" timestamp="1622280977854">
+    <state width="1070" height="381" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.0.center" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="545" height="221" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
-    <state width="545" height="221" key="GridCell.Tab.0.left" timestamp="1622280977854">
+    <state width="1070" height="381" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.0.left" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="545" height="221" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
-    <state width="545" height="221" key="GridCell.Tab.0.right" timestamp="1622280977854">
+    <state width="1070" height="381" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.0.right" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="545" height="221" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1622280977854" />
-    <state width="817" height="385" key="GridCell.Tab.1.bottom" timestamp="1622271094205">
+    <state width="1070" height="381" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.1.bottom" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="817" height="385" key="GridCell.Tab.1.bottom/0.0.1463.874@0.0.1463.874" timestamp="1622271094205" />
-    <state width="817" height="385" key="GridCell.Tab.1.center" timestamp="1622271094205">
+    <state width="1070" height="381" key="GridCell.Tab.1.bottom/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.1.center" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="817" height="385" key="GridCell.Tab.1.center/0.0.1463.874@0.0.1463.874" timestamp="1622271094205" />
-    <state width="817" height="385" key="GridCell.Tab.1.left" timestamp="1622271094205">
+    <state width="1070" height="381" key="GridCell.Tab.1.center/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.1.left" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="817" height="385" key="GridCell.Tab.1.left/0.0.1463.874@0.0.1463.874" timestamp="1622271094205" />
-    <state width="817" height="385" key="GridCell.Tab.1.right" timestamp="1622271094205">
+    <state width="1070" height="381" key="GridCell.Tab.1.left/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
+    <state width="1070" height="381" key="GridCell.Tab.1.right" timestamp="1622546580814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="817" height="385" key="GridCell.Tab.1.right/0.0.1463.874@0.0.1463.874" timestamp="1622271094205" />
+    <state width="1070" height="381" key="GridCell.Tab.1.right/0.0.1463.874@0.0.1463.874" timestamp="1622546580814" />
     <state x="233" y="79" key="SettingsEditor" timestamp="1621649061678">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="233" y="79" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1621649061678" />
-    <state x="324" y="159" key="Vcs.Push.Dialog.v2" timestamp="1622282098319">
+    <state x="324" y="159" key="Vcs.Push.Dialog.v2" timestamp="1622285267600">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="324" y="159" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1622282098319" />
-    <state x="779" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1621529720017">
+    <state x="324" y="159" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1622285267600" />
+    <state x="104" y="0" width="634" height="681" key="com.intellij.ide.util.TipDialog" timestamp="1624697442687">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="779" y="261" key="com.intellij.ide.util.TipDialog/0.0.1463.874@0.0.1463.874" timestamp="1621529720017" />
+    <state x="104" y="0" width="634" height="681" key="com.intellij.ide.util.TipDialog/0.0.1463.874@0.0.1463.874" timestamp="1624697442687" />
   </component>
 </project>
